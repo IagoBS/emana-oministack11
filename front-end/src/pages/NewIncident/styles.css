@@ -1,0 +1,48 @@
+.news-container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-container .content {
+    width: 100%;
+    padding: 96px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.news-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.news-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.news-container .content section p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 32px;
+}
+
+.news-container .content form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.news-container .content form input {
+    margin-top: 8px;
+}
+
+.news-container .content form textarea {
+    margin-top: 8px;
+}
